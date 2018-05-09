@@ -1,0 +1,18 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  input {
+    display: none;
+  }
+  .container {
+    height: 100%;
+    .add-files-btn {
+      float: right;
+    }
+    .actions {
+      justify-content: flex-end;
+    }
+  }
+}
